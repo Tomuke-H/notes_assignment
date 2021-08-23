@@ -4,7 +4,7 @@ const NoteEdit = (props) => {
     const { id, title, description } = props.note;
 
     return (
-        <div>
+        <div style={{ backgroundColor: "#D3D3D3", border: "2px solid", margin: "20px", borderColor: "aqua"}}>
             <h1>Edit Note</h1>   
             <a href="/">Home</a>
             <form action={`/notes/${props.note.id}`} method="post">
