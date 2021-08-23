@@ -2,6 +2,9 @@ import React from 'react'
 
 const NoteNew = (props) => {
     return (
+        
+        // new note form
+
         <div style={{ backgroundColor: "#D3D3D3", border: "2px solid", margin: "20px", borderColor: "aqua"}}>
             <h1>New Note</h1>   
             <a href="/">Home</a>

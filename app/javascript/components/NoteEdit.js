@@ -1,8 +1,10 @@
 import React from 'react'
 
 const NoteEdit = (props) => {
+    // gives us properties
     const { id, title, description } = props.note;
 
+    // edit form with pre-populated values in input boxes
     return (
         <div style={{ backgroundColor: "#D3D3D3", border: "2px solid", margin: "20px", borderColor: "aqua"}}>
             <h1>Edit Note</h1>   
